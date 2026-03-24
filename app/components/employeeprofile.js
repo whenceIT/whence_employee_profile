@@ -108,7 +108,17 @@ export default function EmployeeProfileClient({ id }) {
               <div>
                 <p className="text-sm font-medium text-slate-600 mb-1">Contact Number</p>
                 <p className="text-lg text-slate-900">{employee.phone}</p>
+                <p className="text-lg text-slate-900">0974941112</p>
               </div>
+
+
+  {/* NRC*/}
+              <div>
+                <p className="text-sm font-medium text-slate-600 mb-1">NRC</p>
+                <p className="text-lg text-slate-900">{employee.nrc}</p>
+              </div>
+
+
             </div>
           </div>
         </Card>
